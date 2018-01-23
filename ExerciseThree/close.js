@@ -1,2 +1,4 @@
-let findSum = null;
-let returnFn = null;
+let returnFn = argumentOne => function (argumentTwo) {
+  return argumentOne + argumentTwo;
+};
+module.exports = returnFn;
